@@ -152,7 +152,7 @@ form h2 {
   padding: 0.5rem 0.7rem;
   font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
-  color: #555;
+  color: #fff;
 }
 
 a {
@@ -190,13 +190,13 @@ a:hover {
   background-position: right;
 }
 
-@media screen and (max-widht: 1050px) {
+@media screen and (max-width: 1050px) {
   .container {
     grid-gap: 5rem;
   }
 }
 
-@media screen and (max-widht: 1000px) {
+@media screen and (max-width: 1000px) {
   form {
     width: 290px;
   }
@@ -209,7 +209,7 @@ a:hover {
   }
 }
 
-@media screen and (max-widht: 900px) {
+@media screen and (max-width: 900px) {
   .img {
     display: none;
   }
